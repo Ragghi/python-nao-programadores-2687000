@@ -7,6 +7,8 @@
 nome = 'Gustavo Ragghi'
 empresa = "Stefanini"
 
+print(nome)
+print(empresa)
 
 # Declare variáveis de cada tipo numérico
 idade = 38
@@ -15,6 +17,15 @@ dogs = 2
 altura = 1.80
 peso = 80.00
 
+print(idade)
+print(filhos)
+print(dogs)
+print(altura)
+print(peso)
+
 # Declare uma variável do tipo booleano
 ScrumMaster = True
 maior_idade = idade >= 18
+
+print(ScrumMaster)
+print(maior_idade)
