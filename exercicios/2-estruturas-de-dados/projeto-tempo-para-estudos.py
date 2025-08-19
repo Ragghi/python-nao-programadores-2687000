@@ -14,4 +14,4 @@ total_horas = int(input("Média de horas estudada por dia: "))
 curso = input("Curso: ")
 
 # 5. Imprima na tela uma frase informando o nome da estudante, o total_dias dedicados aos estudos, o total horas semanais e o curso.
-print(f"{nome}, você arrasou com {total_dias} dias e {total_horas} horas de estudo para o curso de {curso}!!!")
+print(f"{nome}, você arrasou com {total_dias} dias e {total_horas * total_dias} horas de estudo para o curso de {curso}!!!")
